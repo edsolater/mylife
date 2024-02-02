@@ -1,27 +1,10 @@
 node_modules
-# Keep environment variables out of version control
-.env
-.vercel
-.output
-.nitro
-.build
-playwright-report
-stats.html
-.fixtures
-*.code-workspace
-
-.vinxi
-
-# Local Netlify folder
-.netlify
 dist
+.wrangler
+.dev.vars
 
-# Local solid folder
-.solid
-
-docs/.vitepress/dist
-docs/.vitepress/cache
-.vitepress
-tmp
-
-.DS_Store
+# Change them to your taste:
+wrangler.toml
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

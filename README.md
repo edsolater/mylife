@@ -1,2 +1,8 @@
-# mylife
-serve my life's toolbox
+```
+npm install
+npm run dev
+```
+
+```
+npm run deploy
+```
